@@ -1,0 +1,56 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Guvi login </title>  
+<style>   
+Body {  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+ 
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 10%;  
+        color: orange;   
+        padding: 10px;   
+        border: forestgreen;
+        margin: 3px 0px;    
+        cursor: pointer;   
+         }    
+ input[type=text], input[type=password],input[type=password1] {   
+        width: 25%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: flexbox;   
+        border: 2px solid blue;   
+        box-sizing: border-box;   
+    }  
+ 
+ .container {   
+        padding: 10px;   
+        background-color: lightblue;  
+    }   
+</style>   
+</head>    
+<body>    
+    <center> <h1> Guvi Login </h1> </center>   
+    <form>  
+      <center>
+        <div class="container">   
+        
+            <label>E mail id :  </label>   
+            <input type="text" placeholder="Enter E mail id" username required>  <br>
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required><br>
+           
+            <input type="checkbox" checked="checked"> Remember me<br>
+            
+            <button type="button" onclick="location.href='profile.html'">LOG IN  </button> <br>
+            <a href="profile.html"> LOG IN </a> 
+
+           
+          </center>
+        </div>   
+    </form>     
+</body>     
+</html>  

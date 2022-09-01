@@ -1,0 +1,52 @@
+<html>
+    <center>
+            <div class="signup" </div> 
+                <label>GUVI SIGN UP</label>
+    </center>
+    
+    <title>
+       GUVI PORTAL
+    </title>
+    <style>
+        *body{
+           background-color: lightseagreen;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 150px;
+        }
+        .login{
+            padding: 5%;
+            margin-bottom: 10%;
+        }
+        input[type=text], input[type=password],input[type=password1],input[type=email] {   
+        width: 25%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: flexbox;   
+        border: 2px solid blue;   
+        box-sizing: border-box; 
+        input [type="text"]{
+            padding:70%;
+        }
+        .signup{
+            padding:10%;
+        }
+        
+    </style>
+    <center>
+        <right>
+            <form action="validation.php" method="post"></form>
+    <div class="login"></div>
+   <label>FIRST NAME:</label>
+   <input type="text" placeholder="enter user name" id="first name" name="text"  required> <br><br> 
+<label>LAST NAME:</label>
+    <input type="text" placeholder="enter last name" id="last name" required><br><br>
+<label>E MAIL  ID  : </label>
+    <input type="email" placeholder="enter email id" id="email" required><br><br>
+    <label>PASSWORD :</label>
+    <input type="password" placeholder="enter password" id="password" required ><br></br>
+    <input type="button" onclick="location.href='lahari.html'" value="sUBMIT">
+    already registered?<a href="lahari.html">please log in</a>
+    </form>
+</right>
+</center>
+</html>
